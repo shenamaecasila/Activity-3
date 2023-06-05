@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="614.0" prefWidth="842.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="casi.CASIFXController">
+    <stylesheets>
+        <URL value="@casifx.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="608.0" fitWidth="842.0" layoutX="3.0" layoutY="5.0" opacity="0.15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tea.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="125.0" layoutY="69.0" text="Taste Tea" textFill="#000000dd">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="287.0" text="Caramel" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="289.0" text="Cookies and Cream" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="627.0" layoutY="289.0" text="Dark Chocolate" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="515.0" text="Red Velvet" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="515.0" text="Taro" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="636.0" layoutY="515.0" text="Wintermelon" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="241.0" layoutY="314.0" mnemonicParsing="false" text="Add to Cart" />
+      <Button layoutX="439.0" layoutY="314.0" mnemonicParsing="false" text="Add to Cart" />
+      <Button layoutX="636.0" layoutY="314.0" mnemonicParsing="false" text="Add to Cart" />
+      <Button layoutX="636.0" layoutY="542.0" mnemonicParsing="false" text="Add to Cart" />
+      <Button layoutX="439.0" layoutY="542.0" mnemonicParsing="false" text="Add to Cart" />
+      <Button layoutX="241.0" layoutY="542.0" mnemonicParsing="false" text="Add to Cart" />
+      <TextField layoutX="231.0" layoutY="67.0" prefHeight="26.0" prefWidth="534.0" />
+      <Label layoutX="71.0" layoutY="132.0" text="Milktea Series">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="69.0" layoutY="231.0" mnemonicParsing="false" text="Classic">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton layoutX="69.0" layoutY="290.0" mnemonicParsing="false" text="Cheesecake">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton layoutX="71.0" layoutY="172.0" mnemonicParsing="false" text="Yakult">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <Button layoutX="78.0" layoutY="529.0" mnemonicParsing="false" text="View Order" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="180.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@caramel.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="378.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cookies.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="578.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dark.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="180.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@red.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="378.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@taro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="578.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wintermelon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="44.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@246720670_104396765374082_799814411880851304_n.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

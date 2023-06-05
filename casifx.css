@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.btn{
+    -fx-background-color: #33ccff
+}
+
+.mbtn{
+    -fx-background-color: #669900
+}
+
+.textfield{
+    -fx-background-color:#cccccc
+}
